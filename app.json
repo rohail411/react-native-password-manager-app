@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "password-manager",
+    "slug": "password-manager",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/splash3.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash3.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rohail411.passwordmanager"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/splash3.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.rohail411.passwordmanager"
+    },
+    "web": {
+      "favicon": "./assets/splash3.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "673eb68b-a479-4092-9d1e-69568b33fdbd"
+      }
+    }
+  }
+}
